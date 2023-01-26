@@ -1,4 +1,5 @@
 #(C)Tsubasa Kato - Inspire Search Corporation 1/26/2023 16:17PM
+#Referenced: https://qiskit.org/documentation/stubs/qiskit.circuit.random.random_circuit.html
 from qiskit import QuantumCircuit, assemble, Aer
 from qiskit.circuit.random import random_circuit
 sim = Aer.get_backend('aer_simulator')
